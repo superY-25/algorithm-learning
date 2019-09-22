@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d1c3fbb-d4b0-465a-9edd-40ddff1db625" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.MD" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/README.MD">
+        <entry file="file://$PROJECT_DIR$/src/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="30">
@@ -153,8 +153,9 @@
         <option value="$PROJECT_DIR$/src/LeetCode/rightSideView.py" />
         <option value="$PROJECT_DIR$/src/LeetCode/mySqrt.py" />
         <option value="$PROJECT_DIR$/src/LeetCode/merge.py" />
-        <option value="$PROJECT_DIR$/src/LeetCode/maxSubArray.py" />
         <option value="$PROJECT_DIR$/src/LeetCode/README.MD" />
+        <option value="$PROJECT_DIR$/src/LeetCode/maxSubArray.py" />
+        <option value="$PROJECT_DIR$/src/README.MD" />
       </list>
     </option>
   </component>
@@ -209,6 +210,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/LeetCode" />
     </key>
@@ -643,7 +647,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/README.MD">
+    <entry file="file://$PROJECT_DIR$/src/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
