@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d1c3fbb-d4b0-465a-9edd-40ddff1db625" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7d1c3fbb-d4b0-465a-9edd-40ddff1db625" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +176,11 @@
               <item name="arithmetic-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="arithmetic-learning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="arithmetic-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -325,10 +328,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.combinationSum3" />
+      <item itemvalue="Python.longestConsecutive" />
+      <item itemvalue="Python.merge" />
       <item itemvalue="Python.mySqrt" />
       <item itemvalue="Python.rightSideView" />
-      <item itemvalue="Python.merge" />
-      <item itemvalue="Python.longestConsecutive" />
     </list>
     <recent_temporary>
       <list>
@@ -355,7 +358,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="742" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
