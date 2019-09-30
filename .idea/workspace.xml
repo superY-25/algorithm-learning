@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d1c3fbb-d4b0-465a-9edd-40ddff1db625" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/SUMMARY.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/SUMMARY.MD" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -22,52 +23,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/SUMMARY.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="5" selection-start-column="5" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/rightSideView.py">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/letterCombinations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/20190902-day1.py">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/plusOne.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/lengthOfLastWord.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="37" />
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/20190903-day2.py">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/divide.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="301">
+              <caret line="33" column="122" selection-start-line="33" selection-start-column="122" selection-end-line="33" selection-end-column="122" />
             </state>
           </provider>
         </entry>
@@ -93,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/coinchange.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="934">
+            <state relative-caret-position="960">
               <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
@@ -102,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/fibonacci.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
+            <state relative-caret-position="675">
               <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
             </state>
           </provider>
@@ -161,13 +147,16 @@
         <option value="$PROJECT_DIR$/src/LeetCode/longestConsecutive.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/algorithm/fibonacci.py" />
-        <option value="$PROJECT_DIR$/src/algorithm/SUMMARY.MD" />
         <option value="$PROJECT_DIR$/src/README.MD" />
+        <option value="$PROJECT_DIR$/src/algorithm/plusOne.py" />
+        <option value="$PROJECT_DIR$/src/algorithm/lengthOfLastWord.py" />
+        <option value="$PROJECT_DIR$/src/algorithm/divide.py" />
+        <option value="$PROJECT_DIR$/src/algorithm/letterCombinations.py" />
+        <option value="$PROJECT_DIR$/src/algorithm/SUMMARY.MD" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="340" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="742" />
@@ -180,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,21 +176,11 @@
               <item name="arithmetic-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="arithmetic-learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="arithmetic-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arithmetic-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arithmetic-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arithmetic-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +216,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fibonacci">
+  <component name="RunManager" selected="Python.letterCombinations">
+    <configuration name="divide" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="arithmetic-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/algorithm/divide.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="arithmetic-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,7 +259,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="longestConsecutive" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lengthOfLastWord" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="arithmetic-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,11 +267,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/LeetCode/longestConsecutive.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/algorithm/lengthOfLastWord.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="letterCombinations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="arithmetic-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,11 +288,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/LeetCode/merge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/algorithm/letterCombinations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,7 +301,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mySqrt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="plusOne" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="arithmetic-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,32 +309,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/LeetCode/mySqrt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rightSideView" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="arithmetic-learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/LeetCode/rightSideView.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/algorithm/plusOne.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,19 +323,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.mySqrt" />
-      <item itemvalue="Python.rightSideView" />
-      <item itemvalue="Python.merge" />
-      <item itemvalue="Python.longestConsecutive" />
       <item itemvalue="Python.fibonacci" />
+      <item itemvalue="Python.plusOne" />
+      <item itemvalue="Python.lengthOfLastWord" />
+      <item itemvalue="Python.divide" />
+      <item itemvalue="Python.letterCombinations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.letterCombinations" />
+        <item itemvalue="Python.divide" />
+        <item itemvalue="Python.lengthOfLastWord" />
+        <item itemvalue="Python.plusOne" />
         <item itemvalue="Python.fibonacci" />
-        <item itemvalue="Python.longestConsecutive" />
-        <item itemvalue="Python.merge" />
-        <item itemvalue="Python.mySqrt" />
-        <item itemvalue="Python.rightSideView" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +353,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="742" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
@@ -384,12 +362,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30153847" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31692308" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.30615383" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -434,6 +412,21 @@
           <url>file://$PROJECT_DIR$/src/algorithm/longestConsecutive.py</url>
           <line>61</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/plusOne.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/lengthOfLastWord.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/letterCombinations.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -621,17 +614,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="5" selection-start-column="5" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/rightSideView.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -665,35 +661,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/coinchange.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
+        <state relative-caret-position="960">
           <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
+        <state relative-caret-position="675">
           <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/plusOne.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/lengthOfLastWord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/divide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="33" column="122" selection-start-line="33" selection-start-column="122" selection-end-line="33" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/letterCombinations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/SUMMARY.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="5" selection-start-column="5" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
