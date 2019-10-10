@@ -7,7 +7,7 @@ import re
 
 def myAtoi(s):
     """
-    使用正则表达式:奇思淫计
+    使用正则表达式:奇思淫计 通过正则表达式来判断字符串开头是否是数字
     :param str:
     :return:
     """
@@ -19,7 +19,7 @@ print(myAtoi("-91283472332"))
 
 def myatoi1(s):
     """
-    普通思路：判断字符串中的每一个字符是否是数字
+    普通思路：判断字符串中的每一个字符是否是数字，时间复杂度O(n)
     :param str:
     :return:
     """
@@ -50,13 +50,10 @@ def myatoi1(s):
 print(myatoi1("words and 987"))
 
 
-"""
-给出一个整数，判断是否是回文数。
-"""
-
 def isPalindrome(num):
     """
     最简单粗暴的算法：将整数全部颠倒，比较原来的数和新生成的数是否相等
+    这个方法用python的字符串的反转便利。
     :param num:
     :return:
     """
@@ -68,5 +65,23 @@ def isPalindrome(num):
         return False
 
 
-print(isPalindrome(121))
+def isPalindrome1(num):
+    """
+    遍历num中一半对比对应的字符是否相等
+    :param num:
+    :return:
+    """
+    s_num = str(num)
+    size = len(s_num) // 2
+    i = 0
+    flag = True
+    while i < size:
+        if s_num[i] != s_num[len(s_num) - 1 - i]:
+            flag = False
+            break
+        i += 1
+    return flag
+
+
+print(isPalindrome1(-101))
 
