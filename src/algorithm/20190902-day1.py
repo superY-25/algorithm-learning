@@ -53,3 +53,30 @@ def oddonfrontofeven1(arr):
 
 oddonfrontofeven1([2, 3, 4, 8, 7, 5, 11, 12, 14, 16, 19])
 
+
+def lastNoK(nums, k):
+    """
+    输出单链表中的倒数第k个元素值, 这里假设python list是一个单链表
+    :param nums:
+    :param k:
+    :return:
+    """
+    nums_len = len(nums)
+    if k > nums_len:
+        return None
+    pre, cur, i = 0, 0, 0
+    for n in nums:
+        cur += 1
+        if i >= k:
+            pre += 1
+        i += 1
+    return nums[pre]
+
+
+print(lastNoK([1, 2, 3, 4, 5, 6, 7, 8], 3))
+
+
+"""
+总结：第一题类似排序，将奇数排到偶数前面，遍历数组，遇到奇数，若前面有偶数就将其往前移动，所以这里涉及到元素的移动。时间复杂度O(n^2)
+     第二题的思路就是使用双指针，遍历单链表时两个指针的间距就是k，遍历完成是后一个指针的位置就是倒数第k个元素的位置。
+"""

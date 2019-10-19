@@ -83,5 +83,10 @@ def isPalindrome1(num):
     return flag
 
 
-print(isPalindrome1(-101))
+print(isPalindrome1(101))
 
+
+"""
+总结：第一题将数字开头的字符串转换成数字，常规方法就是将其遍历判断其是否是数字，知道不是数字时将已遍历过的数字输出
+     第二题判断是否是回文数字，思路就是将数字转换成字符串，然后遍历对比。
+"""
