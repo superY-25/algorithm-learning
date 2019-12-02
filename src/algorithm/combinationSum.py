@@ -20,7 +20,7 @@ def combinationSum(candidates: list, target: int) -> list:
 
     for i in range(1, target + 1):
         for j in candidates:
-            if i == j:
+            if i == j and [i] not in dic[i]:
                 dic[i].append([i])
             elif i > j:
                 for k in dic[i - j]:
@@ -29,8 +29,32 @@ def combinationSum(candidates: list, target: int) -> list:
                     x.sort()  # 升序，便于后续去重
                     if x not in dic[i]:
                         dic[i].append(x)
-
     return dic[target]
 
 
-print(combinationSum([2,3,6,7], 7))
+if __name__ == '__main__':
+    print(combinationSum([10,1,2,7,6,1,5], 8))
+    # a = [[1, 1, 1, 1, 1, 1],
+    #      [1, 1, 1, 1, 2],
+    #      [1, 1, 1, 3],
+    #      [1, 1, 2, 2],
+    #      [1, 1, 4],
+    #      [1, 2, 3],
+    #      [1, 5],
+    #      [2, 2, 2],
+    #      [2, 4],
+    #      [3, 3],
+    #      [6]]
+    # b = [2,5,7,8,12,15]
+    # for i in a:
+    #     s = 0
+    #     for j in i:
+    #         s += b[j-1]
+    #     print(str(i) + ' = ', s)
+
+
+
+
+
+
+
