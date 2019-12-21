@@ -33,3 +33,26 @@ print(longestCommonPrefix(["aa","a"]))
 
 
 print(list(zip(["flower","flow","flight"])))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

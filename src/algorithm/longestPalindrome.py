@@ -24,7 +24,8 @@ def longestPalindrome(s):
     return s[start:start + max_length + 1]
 
 
-print(longestPalindrome('babad'))
+print(longestPalindrome('aabaad'))
+
 
 
 
