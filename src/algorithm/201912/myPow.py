@@ -5,7 +5,6 @@
 
 def myPow(x: float, n: int):
     """
-    暴力解法 超时
     :param x:
     :param n:
     :return:
@@ -14,15 +13,22 @@ def myPow(x: float, n: int):
         return 1
     elif n > 0:
         s = x
-        for _ in range(1, n):
+        for i in range(0, n, 2):
+            s = s ** 2
+        for j in range(n - i):
             s = s * x
         return s
     elif n < 0:
         s = x
-        for _ in range(1, -n):
+        i = 1
+        for i in range(0, -n, 2):
+            s = s ** 2
+        for j in range(-n - i):
             s = s * x
         return 1 / s
 
 
-def myPow1(x: float, n: int):
-    pass
+if __name__ == '__main__':
+    print(myPow(2, 5))
+    # for i in range(2, 10, 2):
+    #     print(i)
