@@ -23,4 +23,22 @@ def twoSum(nums, target):
     return None
 
 
-print(twoSum([2, 7, 11, 15], 18))
+def twoSum1(nums, target):
+    """
+    找出数组中两个数之和为target的所有不重复组合
+    :param nums:
+    :param target:
+    :return:
+    """
+    temp = []
+    ret = []
+    for index, value in enumerate(nums):
+        diff = target - value
+        if diff in temp:
+            ret.append([diff, value])
+        else:
+            temp.append(value)
+    return ret
+
+
+print(twoSum1([2, 7, 11, 15, 16], 18))
