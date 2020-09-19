@@ -9,13 +9,13 @@
 
 
 def rob(nums):
-    """
+    if not nums:
+        return None
 
-    :return:
-    """
-    a, b = nums[0], max(nums[0], nums[1])
-    for i in range(2, len(nums)):
-        cur = max(a + nums[i], b)
+    a = 0
+    b = max(a, nums[0])
+    for i in range(1, len(nums)):
+        cur = max(b, nums[i] + a)
         a = b
         b = cur
     return b
